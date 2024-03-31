@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "prefect_webhook"
+version = "0.1.0"
+description = ""
+authors = ["Stéphane Busso <stephane.busso@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+prefect = "^2.16.8"
+fastapi = "^0.110.0"
+uvicorn = "0.28.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.3.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
